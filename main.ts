@@ -1,3 +1,12 @@
+radio.onReceivedNumber(function (receivedNumber) {
+    if (receivedNumber == hand) {
+        basic.showString("TIE")
+    } else if (receivedNumber == 0) {
+    	
+    } else {
+    	
+    }
+})
 input.onButtonPressed(Button.A, function () {
     if (state == 0) {
         hand += 1
